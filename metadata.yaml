@@ -1,0 +1,11 @@
+name: feishu_doc_controller
+version: v1.0.0
+author: Your Name
+desc: 飞书文档控制器 - 通过机器人直接操作飞书文档，支持文档查看、创建、搜索
+short_desc: 飞书文档操作机器人
+display_name: 飞书文档控制器
+repo: https://github.com/yourusername/feishu_doc_controller
+support_platforms:
+  - lark
+astrbot_version: ">=4.16.0"
+dependencies: []

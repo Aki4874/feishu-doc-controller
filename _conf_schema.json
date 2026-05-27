@@ -1,0 +1,44 @@
+{
+  "feishu_app_id": {
+    "type": "string",
+    "description": "飞书应用 App ID",
+    "hint": "在飞书开放平台获取，格式为 cli_xxxxxxxxxxxx",
+    "default": ""
+  },
+  "feishu_app_secret": {
+    "type": "string",
+    "description": "飞书应用 App Secret",
+    "hint": "在飞书开放平台获取，妥善保管",
+    "default": ""
+  },
+  "cache_dir": {
+    "type": "string",
+    "description": "缓存目录",
+    "default": "./data/feishu_cache"
+  },
+  "sync_interval": {
+    "type": "int",
+    "description": "自动同步间隔（秒）",
+    "default": 3600
+  },
+  "max_retry": {
+    "type": "int",
+    "description": "API 请求最大重试次数",
+    "default": 3
+  },
+  "retry_delay": {
+    "type": "float",
+    "description": "重试延迟（秒）",
+    "default": 1.0
+  },
+  "enable_auto_sync": {
+    "type": "bool",
+    "description": "是否启用自动同步",
+    "default": false
+  },
+  "admin_users": {
+    "type": "list",
+    "description": "管理员用户 ID 列表",
+    "default": []
+  }
+}
